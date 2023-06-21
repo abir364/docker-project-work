@@ -23,7 +23,7 @@ services:
     depends_on:
       - mysql
     volumes:
-      - /home/abir/docker-lamp//web:/var/www/html
+      - /home/abir/docker-lamp/web:/var/www/html
     networks:
       - project-network
   
